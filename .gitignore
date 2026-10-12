@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Model repositories and weights are downloaded locally, outside this repo.
+models/*
+!models/README.md
+
+# Private input data and generated artifacts.
+data/raw/
+data/processed/
+data/labels/
+data/runs/
